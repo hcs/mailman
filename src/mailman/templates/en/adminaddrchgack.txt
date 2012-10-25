@@ -1,0 +1,4 @@
+Address for member $name has been successfully changed
+from $oldaddr to $newaddr for list $listname.
+
+

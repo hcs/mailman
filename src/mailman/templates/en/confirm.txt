@@ -1,0 +1,19 @@
+Email Address Registration Confirmation
+
+Hello, this is the GNU Mailman server at ${domain_name}.
+
+We have received a registration request for the email address
+
+    $email_address
+
+Before you can start using GNU Mailman at this site, you must first confirm
+that this is your email address.  You can do this by replying to this message,
+keeping the Subject header intact.  Or you can visit this web page
+
+    $confirm_url
+
+If you do not wish to register this email address simply disregard this
+message.  If you think you are being maliciously subscribed to the list, or
+have any other questions, you may contact
+
+    $contact_address

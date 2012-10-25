@@ -1,0 +1,6 @@
+[console_scripts]
+runner = mailman.bin.runner:main
+mailman = mailman.bin.mailman:main
+master = mailman.bin.master:main
+onebounce = mailman.bin.onebounce:main
+

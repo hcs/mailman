@@ -1,0 +1,11 @@
+Your authorization is required for a mailing list subscription request
+approval:
+
+    For:  $username
+    List: $listname
+
+At your convenience, visit:
+
+    $admindb_url
+
+to process the request.

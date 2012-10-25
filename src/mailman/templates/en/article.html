@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ <HEAD>
+   <TITLE> $title
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:${email_url}?Subject=${subject_url}&In-Reply-To=$in_reply_to_url">
+   <META NAME="robots" CONTENT="index,nofollow">
+   $encoding
+   $prev
+   $next
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>$subject_html</H1>
+    <B>$author_html</B> 
+    <A HREF="mailto:${email_url}?Subject=${subject_url}&In-Reply-To=${in_reply_to_url}"
+       TITLE="$subject_html">$email_html
+       </A><BR>
+    <I>$datestr_html</I>
+    <P><UL>
+        $prev_wsubj
+        $next_wsubj
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#$sequence">[ date ]</a>
+              <a href="thread.html#$sequence">[ thread ]</a>
+              <a href="subject.html#$sequence">[ subject ]</a>
+              <a href="author.html#$sequence">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+$body
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	$prev_wsubj
+	$next_wsubj
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#$sequence">[ date ]</a>
+              <a href="thread.html#$sequence">[ thread ]</a>
+              <a href="subject.html#$sequence">[ subject ]</a>
+              <a href="author.html#$sequence">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="$listurl">More information about the $listname
+mailing list</a><br>
+</body></html>

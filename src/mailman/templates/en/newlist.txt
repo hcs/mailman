@@ -1,0 +1,18 @@
+The mailing list '$listname' has just been created for you.  The
+following is some basic information about your mailing list.
+
+You can configure your mailing list at the following web page:
+
+    $admin_url
+
+The web page for users of your mailing list is: 
+
+    $listinfo_url
+
+There is also an email-based interface for users (not administrators) of your
+list; you can get info about using it by sending a message with just the word
+'help' as subject or in the body, to:
+
+    $requestaddr
+
+Please address all questions to $siteowner.

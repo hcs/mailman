@@ -1,0 +1,8 @@
+Your message entitled
+
+    $subject
+
+was successfully received by the $display_name mailing list.
+
+List info page: $listinfo_url
+Your preferences: $optionsurl
